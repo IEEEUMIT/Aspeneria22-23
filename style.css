@@ -12,6 +12,10 @@
     background-color: black;
   
   }
+.apply-button{
+    align-items:center;
+    justify-content:center;
+}
   .home h1{
     color:#fff;
     text-align: center;
