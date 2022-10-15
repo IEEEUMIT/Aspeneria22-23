@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    height: 105vh;
+    height: 120vh;
     position: relative;
     overflow: hidden;
     background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
@@ -417,7 +417,7 @@
     margin: 0 0px;
     background:black;
     width: 100%;
-    height: 225vh;
+    height: 325vh;
     position: relative;
     overflow: hidden;
     background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
