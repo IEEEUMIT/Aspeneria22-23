@@ -10,14 +10,8 @@
     -o-background-size: cover;
     background-size: cover; 
     background-color: black;
-  
   }
-.home .apply-button{
-    align-items:center;
-    justify-content:center;
-    margin-left:35%;
-}
-  .home h1{
+.home h1{
     color:#fff;
     text-align: center;
     justify-content: center;
@@ -43,8 +37,9 @@
                 0 0 25px #03e9f4,
                 0 0 50px #03e9f4,
                 0 0 100px #03e9f4;
+              
   }
-/* .devfolio{
+.devfolio{
   height: 70px; 
   width: 412px;
   align-items: center;
@@ -57,7 +52,7 @@
   color: #fff;
 }
 .home devfolio:hover{
-  transform: 0.3; */
+  transform: 0.3; 
 }
 .glow-on-hover {
     width: 320px;
@@ -333,8 +328,7 @@
     left: 0;
     top: 0;
   }
-  
-  /*  .Judges{
+  .Judges{
     margin: 0 0px;
     background:black;
     width: 100%;
@@ -354,49 +348,50 @@
   font-size: 50px;
   text-align: center; 
   margin-top: 9%;
-} */
+}
 /* Float three columns side by side */
-/* .column {
+.column {
  
   float: left;
   width: 27.3%;
   padding: 10px 10px;
-} */
+}
 
 /* Remove extra left and right margins, due to padding */
-/* .row {
+.row {
+  /* margin: 0 -5px; */
    margin-top: 2%;
   align-items: center;
   margin-left: 29%;
-} */
+}
 
 /* Clear floats after the columns */
-/* .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 /* Responsive columns */
-/*  @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 50%;
     display: block;
     margin-bottom: 15px;
   }
-} */  
+}
 
-/*   @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .column {
     width: 100%;
     display: block;
     margin-bottom: 15px;
   }
-} */  
+}
 
 
 /* Style the counter cards */
-/*  .card {
+.card {
   box-shadow: 0 4px 8px 0 rgba(183, 22, 22, 0.2);
   padding: 12px;
   text-align: center;
@@ -440,7 +435,7 @@ img {
     font-weight: bolder;
     margin-top: 5%;
     font-size: 50px;
-  }   
+  }
   
 .sponsor .text p{
     font-size: 50px;
@@ -455,15 +450,15 @@ img {
     
   
   }
-.footer{
+/* .footer{
   margin-top: 20%;
-}
+} */
 .centerdiv {
      width:100%;
      height:20vh;
    display: flex;
    justify-content: center;
-   margin-top: -2%;
+   /* margin-top: -2%; */
    align-items: center;
    background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
     background-image: no-repeat center center fixed;
@@ -495,11 +490,12 @@ img {
     font-size: 3em;
   }
   .footer p{
-    font-size: 50px;
+    font-size: 35px;
     color:#fff;
     align-items: center;
     text-align: center;
     justify-content: center;
+    /* background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif); */
   }
 
 .sponsor{
@@ -548,6 +544,8 @@ box-shadow: 0px 0px 0px 7px rgba(15, 15, 17, 0.948), -5px -5px 30px 7px rgba(72,
   width: inherit;
   height: inherit;
   border-radius: 0px;
+  /* content:"\a";
+  white-space: pre-line; */
   
 }
 
@@ -594,50 +592,7 @@ box-shadow: 0px 0px 0px 7px rgba(15, 15, 17, 0.948), -5px -5px 30px 7px rgba(72,
 
 @media all and (max-width: 500px) {
   .card-list {
-
+    /* On small screens, I am no longer using row direction but column */
     flex-direction: column;
   }
-}  */
-  
-.centerdiv {
-     width:100%;
-     height:100%;
-   display: flex;
-   justify-content: center;
-   margin-top: -1%;
-   align-items: center;
-   background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
-    background-image: no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    background-color: black;
-  }
-  .centerdiv a i{
-    font-size: 20px;;
-    height:55px;
-    width:100px;
-    color:#D2B4DE ;
-    border-radius: 50px;
-    font-size: larger;
-    text-align: center;
-    margin:10px;
-    box-shadow: 1px 4px 1px 1px #3498DB;
-    transition: all 0.3s linear;
-    align-items: center;
-  } 
-  .centerdiv a:hover i{
-    transform: scale(1.5);
-    color:rgb(37, 11, 144);
-  }
-  .centerdiv i.mysize{
-    font-size: 3em;
-  }
-  .footer p{
-    font-size: 50px;
-    color:#fff;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
+}
