@@ -334,95 +334,11 @@
     top: 0;
   }
   
-  /* .container {
-    position: relative;
-    width: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: warp;
-    padding: 30px;
-    top:300px;
-    
-   
-  }
-  .card{
-    border: 1px solid #dadada;
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.2s;
-    width: 50%;
-  }
-  
-  .container .card {
-    position: relative;
-    max-width: 300px;
-    height: 215px;
-    background-color: #fff;
-    margin: 30px 10px;
-    padding: 20px 15px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in-out;
-    border-radius: 15px;
-    
-  }
-  .container .card:hover {
-    height: 320px;
-  }
-  
-  .container .card .image {
-    position: relative;
-    width: 260px;
-    height: 260px;
-    top: -40%;
-    left: 8px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  .container .card .image img {
-    max-width: 100%;
-    border-radius: 15px;
-  }
-  
-  .container .card .content {
-    position: relative;
-    top: -140px;
-    padding: 10px 15px;
-    color: #111;
-    text-align: center;
-  
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-  }
-  
-  .container .card:hover .content {
-    margin-top: 30px;
-    visibility: visible;
-    opacity: 1;
-    transition-delay: 0.2s;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .row {
+  /*  .Judges{
     margin: 0 0px;
     background:black;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
@@ -432,28 +348,77 @@
     -o-background-size: cover;
     background-size: cover; 
   }
+.Judges p{
+  color:#fff;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center; 
+  margin-top: 9%;
+} */
+/* Float three columns side by side */
+/* .column {
+ 
+  float: left;
+  width: 27.3%;
+  padding: 10px 10px;
+} */
+
+/* Remove extra left and right margins, due to padding */
+/* .row {
+  /* margin: 0 -5px; */
+   margin-top: 2%;
+  align-items: center;
+  margin-left: 29%;
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Responsive columns */
+/*  @media screen and (max-width: 1000px) {
   .column {
-    float: left;
-    width: 25%;
-    padding: 0 20px;
+    width: 50%;
+    display: block;
+    margin-bottom: 15px;
   }
-  
-  .row h1{
-    margin-top: 100%;
-    color:#fff;
-    padding-left: 50%;
-    font-weight: bolder;
-    margin-top:3%;
-    font-size: 50px;
-    margin-left: -5%;
-    
+} */  
+
+/*   @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
   }
+} */  
+
+
+/* Style the counter cards */
+/*  .card {
+  box-shadow: 0 4px 8px 0 rgba(183, 22, 22, 0.2);
+  padding: 12px;
+  text-align: center;
+  background-color: #fff;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 15px 0 rgba(0,0,0,0.4);
+}
+
+img {
+  border-radius: 10px 10px 10px 10px;
+}
   
   .mentors{
     margin: 0 0px;
     background:black;
     width: 100%;
-    height: 325vh;
+    height: 250vh;
     position: relative;
     overflow: hidden;
     background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
@@ -464,86 +429,176 @@
     background-size: cover; 
   }
   .mentors img{
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 10%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
   }
   .mentors h1{
     color: #fff;
     text-align: center;
     font-weight: bolder;
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 50px;
-  }
+  }   
   
-  
-
-  
-  .sponsor p{
+.sponsor .text p{
     font-size: 50px;
     text-align: center;
     color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290%;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: 50px;
+    
+  
   }
-  .sponsor .card{
+.footer{
+  margin-top: 20%;
+}
+.centerdiv {
+     width:100%;
+     height:20vh;
+   display: flex;
+   justify-content: center;
+   margin-top: -2%;
+   align-items: center;
+   background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
+    background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-color: black;
+  } 
+  .centerdiv a i{
+    font-size: 20px;;
+    height:55px;
+    width:100px;
+    color:#D2B4DE ;
+    border-radius: 50px;
+    font-size: larger;
     text-align: center;
-    line-break: auto;
-    margin-left: 30%;
-    --card-gradient: rgba(0, 0, 0, 0.8);
-    --card-gradient: #5e9ad9, #e271ad;
-    --card-blend-mode: overlay;
-  
-    background-color: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 0.03rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
-    padding-bottom: 1rem;
-    background-image: linear-gradient(
-      var(--card-gradient),
-      white max(9.5rem, 27vh)
-    );
-    overflow: hidden;
+    margin:10px;
+    box-shadow: 1px 4px 1px 1px #3498DB;
+    transition: all 0.3s linear;
+    align-items: center;
+    
+  } 
+  .centerdiv a:hover i{
+    transform: scale(1.5);
+    color:rgb(37, 11, 144);
   }
-  .sponsor img{
-      border-radius: 0.5rem 0.5rem 0 0;
-      width: 100%;
-      object-fit: cover;
-      height: max(10rem, 25vh);
-      max-height: max(10rem, 30vh);
-      aspect-ratio: 4/3;
-      mix-blend-mode: var(--card-blend-mode);
-      margin-left: 1rem;
-      margin-right: 1rem;
-      
-    }
+  .centerdiv i.mysize{
+    font-size: 3em;
+  }
+  .footer p{
+    font-size: 50px;
+    color:#fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 
-.sponsor .li img::hover{
-      transform: scale(1);
-      color:rgb(37, 11, 144);
-    } 
-  .sponsor .card h3 {
-    margin-top: 1rem;
-    font-size: 1.25rem;
+.sponsor{
+  display: flex;
+  justify-content: center;
+  margin-top:-24%;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  background-image: url(https://media.giphy.com/media/3osxYzuMvUJJcqzND2/giphy.gif);
+    background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    
   }
-  .sponsor .card a {
-    color: inherit;
-  }
+.sponsor .cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 80px;
+  margin-left: -5%;
+  margin-bottom: -40%;
+  margin-top: 0%;
+
+}
+
+
+.sponsor .card {
+  margin: 10px auto;
+  width: 250px;
+  height: 100px;
+  border-radius: 20px;
+box-shadow: 0px 0px 0px 7px rgba(15, 15, 17, 0.948), -5px -5px 30px 7px rgba(72, 79, 138, 0.97);
+  cursor: pointer;
+  transition: 0.4s;
+  margin-left: -1%;
+  padding-left:2 10px;
   
-  .sponsor .card-wrapper {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-    grid-gap: 1.5rem;
-    max-width: 100vw;
-    width: 200ch;
-    margin-right: 50%;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-bottom: 10%;
   }
-   */
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 0px;
+  
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  margin-left: -2%;
+  margin-top: 0%;
+  
+}
+.card .card_image{
+  border:#7a00ff;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 0px 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -100px;
+  height: 40px;
+  margin-left:  70%;
+  margin-bottom: -40%;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 3px 5px rgba(92, 113, 188, 0.703);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color:white;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, I am no longer using row direction but column */
+    flex-direction: column;
+  }
+}  */
   
 .sponsor .centerdiv {
      width:100%;
