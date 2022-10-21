@@ -590,9 +590,145 @@ box-shadow: 0px 0px 0px 7px rgba(15, 15, 17, 0.948), -5px -5px 30px 7px rgba(72,
   color:white;
 }
 
-@media all and (max-width: 500px) {
-  .card-list {
-    /* On small screens, I am no longer using row direction but column */
-    flex-direction: column;
+@media only screen and (max-width: 600px)
+  {
+    .home{
+      width: 140%;
+      height: 100vh;
+    }
+
+    .logo img {
+      top:1%;
+      left:10px;
+      width: 40px;
+
+    }
+
+    .feature img {
+      width: 20px;
+    }
+    
+    .one img {
+     
+      top: -50px;
+      right: 50px;
+      width: 100px;
+      height: 150px;
+      border-radius: 50%;
+      
+    }
+   
+    .main {
+      width: 70%;
+      height: 80vh;
+    }
+
+    .feature div {
+      margin-left: 50px;
+    }
+    
+   
+    
+    .feature img {
+      width: 50px;
+    }
+
+    .overlay {
+      width: 0;
+      height: 0;
+      border-top: 300px;
+      border-right: 300px;
+      border-left: 300px;
+      border-bottom: 300px;;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .two {
+      top: 30px;
+      left: 100px;
+      
+    }
+    
+    .two img {
+      
+      top: -20px;
+      right: 100px;
+      width: 100px;
+      height: 200px;
+      border-radius: 30%;
+      
+    }
+    
+    .three {
+      bottom: 210px;
+      left: 5px;
+      
+    }
+    
+    .three img {
+      top: -5px;
+      right: 100px;
+      width: 100px;
+      height: 100px;
+      border-radius: 30%;
+     
+    }
+    
+    .four {
+      bottom: 100px;
+      right: 300px;
+      
+    }
+    
+    .four img {
+      top: -5px;
+      right: 70px;
+      width: 100px;
+      height: 100px;
+      border-radius: 30%;
+     
+    }
+    
+    .Dates {
+      width: 100px;
+      
+      top: 20%;
+      left: 15%;
+      
+    }
+
+    .information {
+      width: 100px;
+      height: 50px;
+     
+      top: 30%;
+      left: -5%;
+    
+    }
+
+    .home h1{
+     
+      margin-top: 18%;
+      font-size: 70px;
+      
+    }
+    
+    .nav-links {
+      flex: 10;
+      
+    }
+
+    nav {
+      left:1%;
+      width: 100%;
+    }
+    
+    #circle {
+      width: 50px;
+      height: 50px;
+     
+      
+    }
   }
-}
