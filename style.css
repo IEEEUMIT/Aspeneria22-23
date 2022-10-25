@@ -529,7 +529,7 @@ img {
 
 .sponsor .card {
   margin: 10px auto;
-  width: 250px;
+  width: 300px;
   height: 100px;
   border-radius: 20px;
 box-shadow: 0px 0px 0px 7px rgba(15, 15, 17, 0.948), -5px -5px 30px 7px rgba(72, 79, 138, 0.97);
@@ -553,10 +553,10 @@ box-shadow: 0px 0px 0px 7px rgba(15, 15, 17, 0.948), -5px -5px 30px 7px rgba(72,
   width: inherit;
   height: inherit;
   border-radius: 20px;
-  object-fit: cover;
+  object-fit:contain;
   align-items: center;
   justify-content: center;
-  margin-left: -2%;
+  margin-left: -2%; 
   margin-top: 0%;
   
 }
