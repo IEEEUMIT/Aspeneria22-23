@@ -539,7 +539,15 @@ box-shadow: 0px 0px 0px 7px rgba(15, 15, 17, 0.948), -5px -5px 30px 7px rgba(72,
   padding-left:2 10px;
   
   }
-
+.card{
+box-shadow: 0 4px 8px 0 rgba(183, 22, 22, 0.2);
+padding: 12px;
+text-align: center;
+background-color: #fff;
+transition: 0.3s;
+border-radius: 10px;
+height: 50vh;
+}
 .card .card_image {
   width: inherit;
   height: inherit;
